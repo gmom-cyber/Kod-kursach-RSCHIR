@@ -1,0 +1,211 @@
+@import url('font.css');
+@import url('panel.css');
+body{
+	background: #E0FFFF;
+	font-size: 18px;
+	margin: 0;
+}
+#konbtent{
+	padding: 60px 40px 40px 40px;
+}
+img {
+	width: 70%;
+    max-width: 340px;
+}
+p{
+	text-align: justify;
+}
+h1, h3, #cent{
+	text-align: center;
+}
+#ind {
+	text-decoration:none;
+}
+#ind:hover {
+	color: #800000;
+	text-decoration: underline;
+}
+
+div {
+    display: block;
+}
+
+textarea.form-input {
+    height: 186px;
+    min-height: 55px;
+    max-height: 316px;
+    resize: vertical;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.bg-default {
+    background-color: #ffffff;
+}
+.button-primary, .button-primary:focus {
+    color: #ffffff;
+    background-color: #693e3e;
+    border-color: #693e3e;
+}
+* + .button {
+    margin-top: 30px;
+	padding: 11px 30px;
+	font-size: 14px;
+	border: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+    vertical-align: middle;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-transition: 250ms all ease-in-out;
+    -o-transition: 250ms all ease-in-out;
+    transition: 250ms all ease-in-out;
+    -webkit-border-radius: 10em;
+            border-radius: 10em;
+    -webkit-box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.col-md-1, .col-lg-1{
+    position: relative;
+    width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 100px;
+}
+
+.col-md-2, .col-lg-2{
+    position: relative;
+    min-height: 1px;
+		width: 50%;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.peres {
+    position: relative;
+    margin-left: 50px;
+}
+.form-wrap {
+    position: relative;
+    margin-top: 20px;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    min-height: 55px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: none;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+		padding: 13px 20px;
+    -webkit-appearance: none;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+}
+.mb {
+    margin-bottom: 1.5rem !important;
+}
+.pb, .py {
+    padding-bottom: 1rem !important;
+}
+.py {
+    padding-bottom: 1rem !important;
+}
+.row-40 {
+    margin-bottom: -40px;
+}
+* + .row {
+    margin-top: 45px;
+}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.row-40 > * {
+    margin-bottom: 40px;
+}
+.section-sm {
+    padding: 50px 0;
+}
+.text-center {
+    text-align: center !important;
+}
+@media all and (max-width: 800px) {
+	body{
+		margin: 0;
+		padding: 40px 40px 40px 40px;
+	}
+	.col-md-1, .col-lg-1{
+		position: relative;
+		width: 50%;
+		padding-left: 20px;
+	}
+
+	.col-md-2, .col-lg-2{
+		position: relative;
+		width: 50%;
+		padding-right: 20px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	body{
+		margin: 0;
+		padding: 40px 40px 40px 40px;
+	}
+	.col-md-1, .col-lg-1{
+		position: relative;
+		width: 100%;
+		padding-left: 15px;
+	}
+
+	.col-md-2, .col-lg-2{
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+	}
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, 
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, 
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1em;
+    vertical-align: baseline;
+	font-family: 'comic sans ms', sans-serif;
+    color: #000000;
+}

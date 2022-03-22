@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Наша История</title>
+		<link rel="shortcut icon" href="image/ico.png" type="image/png">
+		<link rel="stylesheet" type="text/css" href="css/history.css">
+	</head>
+	<body>
+		<script src="js/panel.js"></script>
+		<div id="konbtent">
+			<h1>Заполни форму и получи актуальный список пересдач!</h1>
+			<div class="col-md-2 col-lg-2">
+				<h3 class="mb"> </h3>
+				<!--Mailform-->
+				<div>
+					<div class="form-wrap">
+						<input class="form-input" id="contact-name" type="text" name="name" placeholder="Учебная группа" required="">
+					</div>
+
+					<div class="form-wrap">
+						<input class="form-input" id="contact-phone" type="email" name="email" placeholder="Почта" minlength="7" required="">
+					</div>
+					<div class="form-wrap">
+						<input type="number" max="5" min = "1" class="form-input" id="contact-message" name="message" placeholder="Курс">
+					</div>
+					<button class="button button-primary" id = "submit" name="submit">Отправить</button>
+				</div>
+			</div>
+		</div>
+		<div id = "peres" class = "peres"></div>
+		<script>
+			document.querySelector("#submit").onclick = function(){
+			connection.send(document.getElementById("contact-name").value);
+			console.log(document.getElementById("contact-name").value);
+		}
+		</script>
+	</body>
+</html>
